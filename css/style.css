@@ -9,7 +9,7 @@
 
 /* Global Styles */
 body {
-    background: url('./images/background.png') repeat center center;
+    background: url('../images/background.png') repeat center center;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
