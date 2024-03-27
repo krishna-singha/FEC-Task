@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Singha Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sass.css">
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <header id="header">
+
+        <!-- Navigation Bar -->
+        <nav id="navbar">
+            <div id="nav-logo">
+                <h1>Krishna</h1>
+            </div>
+            <ul id="nav-links">
+                <li>
+                    <a href="#home-section">Home</a>
+                </li>
+                <li>
+                    <a href="#projects-section">My Projects</a>
+                </li>
+                <li>
+                    <a href="#skills-section">Skills & Achievements</a>
+                </li>
+                <li>
+                    <a href="#contact-section">Contact Me</a>
+                </li>
+            </ul>
+            <div id="hamburger-menu">
+                <i class="fa-solid fa-bars-staggered" id="hamburger-icon"></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Home Section -->
+    <section id="home-section">
+        <div class="home-section-inside">
+            <div class="intro">
+                <h2>Hello! I AM</h2>
+                <h1>Krishna Singha</h1>
+                <p>I am a <span id="typing-txt"></span></p>
+                <div class="contact-btn">
+                    <a href="#contact-section">Contact Me</a>
+                </div>
+            </div>
+            <div class="profile-image">
+                <img src="./images/my_img.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- My Projects Section -->
+    <section id="projects-section">
+        <div class="projects-section-inside">
+            <h2 class="section-heading">My Projects</h2>
+
+            <!-- Project Cards -->
+            <div class="projects-container">
+                <div class="row-1">
+                    <div class="project-card">
+                        <img src="./images/qr-code-generator.png" alt="QR Code Generator">
+                        <h3>QR Code Generator</h3>
+                        <div class="visit-btn">
+                            <a href="https://krishna-singha.github.io/QR-Code-Generator/" target="_blank"
+                                onclick="markVisited(this)">Visit-></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./images/tic-tac-toe.png" alt="Tic Tac Toe">
+                        <h3>Tic Tac Toe</h3>
+                        <div class="visit-btn">
+                            <a href="https://krishna-singha.github.io/Tic-Tac-Toe/" target="_blank"
+                                onclick="markVisited(this)">Visit-></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./images/portfolio.png" alt="Portfolio">
+                        <h3>Portfolio</h3>
+                        <div class="visit-btn">
+                            <a href="https://ksingha.design" target="_blank" onclick="markVisited(this)">Visit-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-2">
+                    <div class="project-card">
+                        <img src="./images/medconsole-pro.png" alt="MedConsole Pro">
+                        <h3>MedConsole Pro</h3>
+                        <div class="visit-btn">
+                            <a href="https://github.com/krishna-singha/MedConsole-Pro" target="_blank"
+                                onclick="markVisited(this)">Visit-></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./images/zerodha.png" alt="Zerodha">
+                        <h3>Zerodha Clone</h3>
+                        <div class="visit-btn">
+                            <a href="https://krishna-singha.github.io/Zerodha-Clone/" target="_blank"
+                                onclick="markVisited(this)">Visit-></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./images/apple.png" alt="Apple">
+                        <h3>Apple Clone</h3>
+                        <div class="visit-btn">
+                            <a href="https://krishna-singha.github.io/Apple-Clone/" target="_blank"
+                                onclick="markVisited(this)">Visit-></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills and Achievements Section -->
+    <section id="skills-section">
+        <div class="skills-section-inside">
+            <h2 class="section-heading">Skills & Achievements</h2>
+
+            <!-- Skills Cards -->
+            <div class="skills-container">
+                <div class="skill-card A">
+                    <img src="./images/another-portfolio.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi necessitatibus fugit error
+                        obcaecati, excepturi quo exercitationem veniam enim libero?</p>
+                </div>
+                <div class="skill-card B">
+                    <img src="./images/another-portfolio.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi necessitatibus fugit error
+                        obcaecati, excepturi quo exercitationem veniam enim libero?</p>
+                </div>
+                <div class="skill-card C">
+                    <img src="./images/another-portfolio.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi necessitatibus fugit?</p>
+                </div>
+                <div class="skill-card D">
+                    <img src="./images/another-portfolio.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi necessitatibus fugit?</p>
+                </div>
+                <div class="skill-card E">
+                    <img src="./images/another-portfolio.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi necessitatibus fugit?</p>
+                </div>
+                <div class="skill-card F">
+                    <img src="./images/another-portfolio.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi necessitatibus fugit error
+                        obcaecati, excepturi quo exercitationem veniam enim libero?</p>
+                </div>
+                <div class="skill-card G">
+                    <img src="./images/another-portfolio.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi necessitatibus fugit error
+                        obcaecati, excepturi quo exercitationem veniam enim libero?</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact-section">
+        <div class="contact-section-inside">
+            <h2 class="section-heading">Contact Me</h2>
+            <div class="contact-form">
+
+                <!-- Contact Me Form -->
+                <form action="#" id="form">
+                    <div class="form-input">
+                        <input type="text" placeholder="Your Full Name" id="full-name">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Error Message</span>
+                    </div>
+                    <div class="form-input">
+                        <input type="email" placeholder="Your Email" id="email">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Error Message</span>
+                    </div>
+                    <div class="form-input">
+                        <input type="date" placeholder="Date for Appointment" required>
+                    </div>
+                    <div class="form-input">
+                        <textarea placeholder="Your Message" rows="8" id="message" spellcheck="false"></textarea>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Error Message</span>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="footer-inside">
+            <p>&copy; <span id="currentYear"></span> - Developed by Krishna Singha. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="./js/typing.js"></script>
+    <script src="./js/formValidation.js"></script>
+    <script src="./js/toggleHamburger.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Visit Button Functionality -->
+    <script>
+        const markVisited = (button) => {
+            button.innerHTML = "Visited";
+            const visitBtn = button.parentElement;
+            visitBtn.classList.add("visited");
+        }
+
+    </script>
+
+    <!-- CurrentYear Display  -->
+    <script>
+        let currentYear = new Date().getFullYear();
+        let yearElement = document.getElementById("currentYear");
+        yearElement.innerHTML = currentYear;
+    </script>
+
+</body>
+
+</html>
