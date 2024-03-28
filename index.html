@@ -199,7 +199,7 @@
                         <span>Error Message</span>
                     </div>
                     <div class="form-input">
-                        <input type="date" placeholder="Date for Appointment" required>
+                        <input type="date" placeholder="Date for Appointment" id="date" required>
                     </div>
                     <div class="form-input">
                         <textarea placeholder="Your Message" rows="8" id="message" spellcheck="false"></textarea>
@@ -233,7 +233,6 @@
             const visitBtn = button.parentElement;
             visitBtn.classList.add("visited");
         }
-
     </script>
 
     <!-- CurrentYear Display  -->
@@ -241,6 +240,12 @@
         let currentYear = new Date().getFullYear();
         let yearElement = document.getElementById("currentYear");
         yearElement.innerHTML = currentYear;
+    </script>
+
+    <!-- Date Input Min Value  -->
+    <script>
+        let today = new Date().toISOString().split('T')[0];
+        document.getElementById("date").min = today;
     </script>
 
 </body>
